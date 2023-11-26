@@ -10,10 +10,10 @@ export default function header() {
       </Link>
       <ul className="flex gap-4 font-semibold text-xl">
         <Link href="/">
-        <li>Home</li>
+        <li className="">Home</li>
         </Link>
         <Link href="/posts">
-        <li>myPosts</li>
+        <li className="">myPosts</li>
         </Link>
       </ul>
     </header>
