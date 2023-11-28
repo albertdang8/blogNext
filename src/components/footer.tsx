@@ -1,7 +1,7 @@
 
 export default function Footer() {
   return (
-    <footer className="container flex flex-col">
+    <footer className="container flex flex-col pt-4 mt-4 border-t border-black">
       <nav className="flex flex-wrap justify-between lg:justify-around pb-12">
         <ul>
           <h3 className="font-bold text-2xl pb-2">Explore</h3>
