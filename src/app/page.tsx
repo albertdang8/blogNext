@@ -21,11 +21,14 @@ export default async function Home() {
           <div className="relative w-full md:w-1/2">
             <Image
               alt="blog reference image"
-              src="/blogRef.png"
-              width={800} // Adjust the width for larger screens
-              height={600} // Adjust the height accordingly
+              src="/p2.jpg"
+              objectFit="contain"
+              objectPosition="center"
+              quality={100}
+              width={400} // Adjust the width for larger screens
+              height={400} // Adjust the height accordingly
               layout="responsive"
-              className="rounded-sm"
+              className="rounded-sm w-[500px] h-[500px]"
             />
           </div>
         </div>
