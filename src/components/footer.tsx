@@ -1,5 +1,5 @@
 export default function Footer() {
-// Add to the list here, you probably don't need to touch the return(code). 
+// Add to the list here, client, you probably don't need to touch the return(code). 
   const footerItems = [
     {
       category: "Explore",
