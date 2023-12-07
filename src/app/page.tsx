@@ -1,3 +1,4 @@
+import AddPostForm from "@/components/add-post-form";
 import PostsList from "@/components/posts-list";
 import Image from "next/image";
 
@@ -33,7 +34,7 @@ export default async function Home() {
           </div>
         </div>
       </section>
-
+      <AddPostForm />
       <PostsList />
     </main>
   );
